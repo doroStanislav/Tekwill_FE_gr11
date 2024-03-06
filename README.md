@@ -27,13 +27,14 @@
 
 Чтобы узнать больше о синтаксисе Markdown, вы можете обратиться к следующим ссылкам:
 
-• [Официальная страница Markdown](https://www.markdownguide.org/)
-• [Основной синтаксис Markdown](https://www.markdownguide.org/basic-syntax/)
+- [Официальная страница Markdown](https://www.markdownguide.org/)
+- [Основной синтаксис Markdown](https://www.markdownguide.org/basic-syntax/)
 
 Чтобы узнать больше о синтаксисе Markdown, вы можете обратиться к следующим ссылкам:
 
-• [Официальная страница Markdown](https://www.markdownguide.org/)
-• [Основной синтаксис Markdown](https://www.markdownguide.org/basic-syntax/)
+- [Официальная страница Markdown](https://www.markdownguide.org/)
+- [Основной синтаксис Markdown](https://www.markdownguide.org/basic-syntax/)
 
 Кроме того, вы можете найти более подробный список функций синтаксиса Markdown по адресу:
-• [Полное руководства по синтаксису Markdown](https://www.markdownguide.org/getting-started/)
+
+- [Полное руководства по синтаксису Markdown](https://www.markdownguide.org/getting-started/)
