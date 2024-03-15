@@ -125,13 +125,22 @@
 
             <legend>Profile:</legend>
 
+                <div>
+                    <label for="profile-photo" id="profile-photo">Upload a Profile Picture:</label>
+                    <input type="file" id="profile-photo" name="profile-photo" accept=".jpg, .png" required>
+                </div>
 
+                <div>
+                    <label for="experience">Experience Level with HTML:</label>
+                    <input type="range" id="experience" name="experience" min="0" max="10" value="5" oninput="displayValue.value=experience.value">
+                    <span id="displayValue">5/10</span>
+                </div>    
         </fieldset>
 
             <div>
                 <input type="submit" value="Submit" id="submitButton">
                 <input type="reset" value="Reset" id="resetButton">
-            </div>    
-    
-            </form>
-    </div>    
+            </div> 
+            
+        </form>
+</div>    
