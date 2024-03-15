@@ -8,11 +8,12 @@
 <body>
     <h1>Registration form</h1>
     <div>
+        <form> action="link">
+
         <fieldset>
 
             <legend>Basic User Information:</legend>
 
-            <form action="link_to_server">
                 <div>
                     <label for="fullname">Full Name:</label>
                     <input type="text" id="fullname" name="fullname" required>
@@ -46,7 +47,7 @@
                     <label for="birthday">Date of Birth:</label>
                     <input type="date" id="birthday" name="birthday">
                 </div>      
-        </fieldset>
+            </fieldset>
 
         <fieldset>
 
@@ -84,7 +85,7 @@
                 <legend>Preferences:</legend>
 
                 <div>   
-                    <label for="contactmethod">Preffered Contact Method:</label>
+                    <label for="emailmethod">Preffered Contact Method:</label>
 
                     <input type="checkbox" id="emailmethod" name="emailmethod" value="Email">
                     <label for="emailmethod">Email</label>
@@ -126,7 +127,7 @@
             <legend>Profile:</legend>
 
                 <div>
-                    <label for="profile-photo" id="profile-photo">Upload a Profile Picture:</label>
+                    <label for="profile-photo">Upload a Profile Picture:</label>
                     <input type="file" id="profile-photo" name="profile-photo" accept=".jpg, .png" required>
                 </div>
 
@@ -143,4 +144,8 @@
             </div> 
             
         </form>
-</div>    
+
+    </div>
+    
+</body>    
+</html>
