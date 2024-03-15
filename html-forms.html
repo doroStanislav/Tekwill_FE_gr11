@@ -13,96 +13,125 @@
             <legend>Basic User Information:</legend>
 
             <form action="link_to_server">
-                <label for="fullname">Full Name:</label>
-                <input type="text" id="fullname" name="fullname">
-                <br>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email">
-                <br>
+                <div>
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
                 
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password">
-                <label for="confpassword">Confirm Password:</label> 
-                <input type="password" id="confpassword" name="confirmpassword">
-          
-                <label for="male">Gender:</label>
-                <input type="radio" id="male" name="gender" value="Male">
-                <label for="male">Male</label>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    <label for="confpassword">Confirm Password:</label> 
+                    <input type="password" id="confpassword" name="confirmpassword" required>
+                </div>
 
-                <input type="radio" id="female" name="gender" value="Female">
-                <label for="female">Female</label>
+                <div>
+                    <label for="male">Gender:</label>
+                    <input type="radio" id="male" name="gender" value="Male">
+                    <label for="male">Male</label>
+                
+                    <input type="radio" id="female" name="gender" value="Female">
+                    <label for="female">Female</label>
 
-                <input type="radio" id="other" name="gender" value="Other">
-                <label for="other">Other</label>
-
-                <label for="birthday">Date of Birth:</label>
-                <input type="date" id="birthday" name="birthday">  
+                    <input type="radio" id="other" name="gender" value="Other">
+                    <label for="other">Other</label>
+                </div>
+                
+                <div>
+                    <label for="birthday">Date of Birth:</label>
+                    <input type="date" id="birthday" name="birthday">
+                </div>      
         </fieldset>
 
         <fieldset>
 
             <legend>Address Information:</legend>
 
-            <label for="streetadress">Street Adress:</label>
-            <textarea name="streetadress" id="streetadress" cols="30" rows="3"></textarea>
-            <br>
+                <div>
+                    <label for="streetadress">Street Adress:</label>
+                    <textarea name="streetadress" id="streetadress" cols="30" rows="3"></textarea>
+                </div>
 
-            <label for="country">Country:</label>
-            <select name="country" id="country">
-                <option value="usa">USA</option>
-                <option value="moldova">Moldova</option>
-                <option value="germany">Germany</option>
-                <option value="italy">Italy</option>
-                <option value="spain">Spain</option>
-            </select>
-            <br>
-            
-            <label for="city">City:</label>
-            <input type="text" id="city" name="city">
-            <br> 
+                <div>    
+                    <label for="country">Country:</label>
+                        <select name="country" id="country">
+                            <option value="usa">USA</option>
+                            <option value="moldova">Moldova</option>
+                            <option value="germany">Germany</option>
+                            <option value="italy">Italy</option>
+                            <option value="spain">Spain</option>
+                        </select>
+                </div>
+                
+                <div>
+                    <label for="city">City:</label>
+                    <input type="text" id="city" name="city">
+                </div> 
 
-            <label for="postcode">Postal Code:</label>
-            <input type="text" id="postcode" name="postcode">
-        </fieldset>
+                <div>
+                    <label for="postcode">Postal Code:</label>
+                    <input type="text" id="postcode" name="postcode">
+                </div>    
+            </fieldset>
 
-        <fieldset>
+            <fieldset>
 
-            <legend>Preferences:</legend>
+                <legend>Preferences:</legend>
 
-            <label for="contactmethod">Preffered Contact Method:</label>
+                <div>   
+                    <label for="contactmethod">Preffered Contact Method:</label>
 
-            <input type="checkbox" id="emailmethod" name="emailmethod" value="Email">
-            <label for="emailmethod">Email</label>
+                    <input type="checkbox" id="emailmethod" name="emailmethod" value="Email">
+                    <label for="emailmethod">Email</label>
 
-            <input type="checkbox" name="phonemethod" id="phonemethod" value="Phone">
-            <label for="phonemethod">Phone</label>
+                    <input type="checkbox" name="phonemethod" id="phonemethod" value="Phone">
+                    <label for="phonemethod">Phone</label>
 
-            <input type="checkbox" name="postalmail" id="postmail" value="Postal Mail">
-            <label for="postmail">Post Mail</label>
-            <br>
-
-            <label for="colorpicker">Favorite Color:</label>
-            <input type="color" id="colorpicker" name="colorpicker" value="">
-        </fieldset>
+                    <input type="checkbox" name="postalmail" id="postmail" value="Postal Mail">
+                    <label for="postmail">Post Mail</label>
+                </div>
+                
+                <div>
+                    <label for="colorpicker">Favorite Color:</label>
+                    <input type="color" id="colorpicker" name="colorpicker" value="">
+                </div>
+            </fieldset>
         
         <fieldset>
 
             <legend>Additional Details:</legend>
 
-            <label for="hearAboutUs">How did you hear about us?</label>
-            <select name="hearAboutUs" id="hearAboutUs">
-                <option value="internet">Internet</option>
-                <option value="friend">Frind</option>
-                <option value="advertisement">Advertisement</option>
-            </select>
-            <br>
-
-            <label for="feedback">Feedback/Comments:</label>
-            <textarea name="feedback" id="feedback" cols="30" rows="3"></textarea>
+                <div>
+                    <label for="hearAboutUs">How did you hear about us?</label>
+                    <select name="hearAboutUs" id="hearAboutUs">
+                        <option value="internet">Internet</option>
+                        <option value="friend">Frind</option>
+                        <option value="advertisement">Advertisement</option>
+                    </select>
+                </div>
+                   
+                <div>
+                    <label for="feedback">Feedback/Comments:</label>
+                    <textarea name="feedback" id="feedback" cols="30" rows="3"></textarea>
+                </div>
         </fieldset>
 
-        <input type="submit" value="Submit" id="submitButton">
-        <input type="reset" value="Reset" id="resetButton">
+        <fieldset>
+
+            <legend>Profile:</legend>
+
+
+        </fieldset>
+
+            <div>
+                <input type="submit" value="Submit" id="submitButton">
+                <input type="reset" value="Reset" id="resetButton">
+            </div>    
+    
             </form>
     </div>    
