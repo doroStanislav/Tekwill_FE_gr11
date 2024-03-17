@@ -1,0 +1,16 @@
+/*individual style for h1*/
+#myH1{
+    color: blue;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+/*general designe for 'p'*/
+p {
+    color: rgb(220, 98, 23);
+}
+
+/*class for one paragraph*/
+.postedParagraph{
+    color: rgb(41, 117, 28);
+}
