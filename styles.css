@@ -1,5 +1,5 @@
 /*individual style for h1*/
-#myH1{
+#my-h1{
     color: blue;
     text-decoration: underline;
     text-transform: uppercase;
@@ -11,6 +11,6 @@ p {
 }
 
 /*class for one paragraph*/
-.postedParagraph{
+.posted-paragraph{
     color: rgb(41, 117, 28);
 }
