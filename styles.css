@@ -19,3 +19,15 @@ p {
 a:hover {
   color: rgb(30, 146, 111);
 }
+
+h3:first-of-type {
+  color: blueviolet;
+}
+
+ol li:nth-child(even) {
+  color: red;
+}
+
+ul li:nth-last-child(2) {
+  color: red;
+}
