@@ -1,3 +1,6 @@
+body {
+  font-size: 16px;
+}
 /*individual style for h1*/
 #my-h1 {
   color: blue;
@@ -8,7 +11,7 @@
 /*general designe for 'p'*/
 p {
   color: rgb(220, 98, 23);
-  font-size: 20px;
+  font-size: 1.2em;
 }
 
 /*class for one paragraph*/
@@ -30,4 +33,13 @@ ol li:nth-child(even) {
 
 ul li:nth-last-child(2) {
   color: red;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+  font-size: 2rem;
 }
