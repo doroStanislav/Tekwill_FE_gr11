@@ -1,16 +1,21 @@
 /*individual style for h1*/
-#my-h1{
-    color: blue;
-    text-decoration: underline;
-    text-transform: uppercase;
+#my-h1 {
+  color: blue;
+  text-decoration: underline;
+  text-transform: uppercase;
 }
 
 /*general designe for 'p'*/
 p {
-    color: rgb(220, 98, 23);
+  color: rgb(220, 98, 23);
+  font-size: 20px;
 }
 
 /*class for one paragraph*/
-.posted-paragraph{
-    color: rgb(41, 117, 28);
+.posted-paragraph {
+  color: rgb(41, 117, 28);
+}
+
+a:hover {
+  color: rgb(30, 146, 111);
 }
