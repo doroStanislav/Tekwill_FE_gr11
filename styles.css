@@ -27,11 +27,11 @@ h3:first-of-type {
   color: blueviolet;
 }
 
-ol li:nth-child(even) {
+.even-list-element li:nth-child(even) {
   color: red;
 }
 
-ul li:nth-last-child(2) {
+.last-second-element li:nth-last-child(2) {
   color: red;
 }
 
@@ -42,4 +42,18 @@ h4,
 h5,
 h5 {
   font-size: 2rem;
+}
+.nav-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: rgb(239, 255, 183);
+}
+
+.nav-menu li::before {
+  content: " \25D6";
+}
+
+.nav-menu li::after {
+  content: " \25D7";
 }
