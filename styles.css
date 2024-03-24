@@ -9,6 +9,10 @@ body {
   background-color: rgba(0, 191, 255, 0.5);
 }
 
+.posted-img img {
+  width: calc(50% + 150px);
+}
+
 /*general designe for 'p'*/
 p {
   color: rgb(220, 98, 23);
