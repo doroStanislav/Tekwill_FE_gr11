@@ -1,16 +1,64 @@
+body {
+  font-size: 16px;
+}
 /*individual style for h1*/
-#my-h1{
-    color: blue;
-    text-decoration: underline;
-    text-transform: uppercase;
+#my-h1 {
+  color: blue;
+  text-decoration: underline;
+  text-transform: uppercase;
+  background-color: rgba(0, 191, 255, 0.5);
+}
+
+.posted-img img {
+  width: calc(50% + 150px);
 }
 
 /*general designe for 'p'*/
 p {
-    color: rgb(220, 98, 23);
+  color: rgb(220, 98, 23);
+  font-size: 1.2em;
 }
 
 /*class for one paragraph*/
-.posted-paragraph{
-    color: rgb(41, 117, 28);
+.posted-paragraph {
+  color: rgb(41, 117, 28);
+}
+
+a:hover {
+  color: rgb(30, 146, 111);
+}
+
+h3:first-of-type {
+  color: blueviolet;
+}
+
+.even-list-element li:nth-child(even) {
+  color: red;
+}
+
+.last-second-element li:nth-last-child(2) {
+  color: red;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+  font-size: 2rem;
+}
+.nav-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: rgb(242, 255, 196);
+}
+
+.nav-menu li::before {
+  content: " \25D6";
+}
+
+.nav-menu li::after {
+  content: " \25D7";
 }
