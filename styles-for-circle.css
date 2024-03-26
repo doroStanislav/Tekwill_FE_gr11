@@ -1,0 +1,25 @@
+h1 {
+    font-size: 70px;
+    text-shadow:-2px -3px 4px rgb(129, 5, 136), 2px 4px 4px rgb(211, 134, 9);
+    padding: 0px 0px 0px 20px; 
+    margin-left: 20px;
+}
+
+.container{
+    padding: 70px;
+    margin-left: 35px;
+}
+
+.content{
+    background-color: darkgreen;
+    width: 1px;
+    height: 1px;
+    border-style: solid;
+    border-width: 100px;
+    border-radius: 50%;
+    padding: 50px;
+    outline-style: solid;
+    outline-width: 35px;
+    outline-color: red;
+    box-shadow: inset 0px 0px 15px 12px white, 0px 0px 80px 50px;
+}
